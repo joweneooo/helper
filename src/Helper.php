@@ -11,7 +11,7 @@ class Helper {
     /**
      * Random dunber
      */
-    public function rand()
+    public static function rand()
     {
         return rand();
     }
@@ -19,7 +19,7 @@ class Helper {
     /**
      * Make Slug
      */
-    public function getSlug($title)
+    public static function getSlug($title)
     {
         return strtolower(str_replace(' ', '-', $title));
     }
@@ -28,7 +28,7 @@ class Helper {
      * Get file Extension 
      */
 
-     public function getExtention($file_name)
+     public static function getExtention($file_name)
      {
         $file_arr =  explode('.', $file_name);
         $file_ext = end( $file_arr ); 
