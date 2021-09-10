@@ -1,6 +1,6 @@
 <?php
 
-use Helper\Helper;
+use Neooo\Helper\Helper;
 
 require_once "src/Helper.php";
 
